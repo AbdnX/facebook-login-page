@@ -1,3 +1,152 @@
 body {
-    background-color: gainsboro;
+    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #1877f2;
+}
+
+.submitButton {
+    background-color: #1877f2;
+    font-size: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    color: white;
+    width: 100%;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.forgetPassword {
+    font-size: 14px;
+    line-height: 18.76px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 49px;
+    color: #1877f2;
+}
+
+.button {
+    background-color: #42b72a;
+    font-size: 17px;
+    font-family: Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    box-shadow: none;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 6px;
+    max-width: 70%;
+
+}
+
+
+.mainPage {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.textPart {
+    padding: 0px;
+}
+
+.fb-image {
+    width: 300px;
+    height: 106px;
+    padding: 0px;
+    margin-left: -28px;
+    margin-bottom: -40px;
+}
+
+.subtitle {
+    font-size: 28px;
+    line-height: 32px;
+    text-align: start;
+    letter-spacing: normal;
+    color: #1c1e21;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    width: 500px;
+    padding-top: 0px;
+}
+
+.boxPart-text {
+    font-size: 14px;
+    text-align: center;
+    line-height: 18.76px;
+    letter-spacing: normal;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+
+.myForm {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    min-width: 396px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.myForm input {
+    padding: 14px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-color: rgb(235, 232, 232);
+}
+
+.field {
+    border-radius: 6px;
+    font-size: 17px;
+    color: #989898;
+    box-shadow: none;
+
+}
+
+.belowSection {
+    background-color: white;
+    display: block;
+    padding: 20px 230px;
+}
+
+.list {
+    font-size: 12px;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    color: #737373;
+    ;
+}
+
+.firstList li {
+    padding-bottom: 10px;
+    margin-left: 20px;
+    padding-left: 0px
+}
+
+
+.secondList li {
+    padding-bottom: 5px;
+    margin-left: 20px;
+    padding-left: 0px
+}
+
+.footerText {
+    margin-left: 60px;
 }
